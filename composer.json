@@ -1,5 +1,5 @@
 {
-    "name": "maxmilhas/SpecificationPatternPHP",
+    "name": "maxmilhas/specification-pattern",
     "description": "Implementation of the Specification Design Pettern in PHP",
     "minimum-stability": "dev",
     "version": "1.0.0",
