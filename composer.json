@@ -1,0 +1,18 @@
+{
+    "name": "maxmilhas/SpecificationPatternPHP",
+    "description": "Implementation of the Specification Design Pettern in PHP",
+    "minimum-stability": "dev",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MaxMilhas",
+            "email": "ti@maxmilhas.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MaxMilhas\\DesignPatterns\\": ["src/", "tests/src/"]
+        }
+    }
+}
