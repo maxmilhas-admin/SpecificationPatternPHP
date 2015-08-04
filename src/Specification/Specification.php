@@ -8,7 +8,7 @@ abstract class Specification implements ISpecification
     /**
      * Checks if given candidate meets all criteria of the specification
      *
-     * @param object $candidate
+     * @param mixed $candidate
      *
      * @return bool
      */
@@ -48,3 +48,4 @@ abstract class Specification implements ISpecification
         return new NotSpecification($this);
     }
 }
+

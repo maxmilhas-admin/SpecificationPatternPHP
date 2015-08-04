@@ -17,7 +17,7 @@ class NotSpecification extends Specification
     /**
      * Checks if given candidate meets all criteria of the specification
      *
-     * @param object $candidate
+     * @param mixed $candidate
      *
      * @return bool
      */
@@ -26,3 +26,4 @@ class NotSpecification extends Specification
         return !$this->wrapped->isSatisfiedBy($candidate);
     }
 }
+

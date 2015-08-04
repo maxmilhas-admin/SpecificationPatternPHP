@@ -7,7 +7,7 @@ interface ISpecification
     /**
      * Checks if given candidate meets all criteria of the specification
      *
-     * @param object $candidate
+     * @param mixed $candidate
      *
      * @return bool
      */
@@ -38,3 +38,4 @@ interface ISpecification
      */
     function notSpec();
 }
+

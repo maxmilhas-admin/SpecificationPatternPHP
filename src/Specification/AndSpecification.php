@@ -23,7 +23,7 @@ class AndSpecification extends Specification
     /**
      * Checks if given candidate meets all criteria of the specification
      *
-     * @param object $candidate
+     * @param mixed $candidate
      *
      * @return bool
      */
@@ -32,3 +32,4 @@ class AndSpecification extends Specification
         return $this->one->isSatisfiedBy($candidate) && $this->other->isSatisfiedBy($candidate);
     }
 }
+
